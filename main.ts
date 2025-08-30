@@ -1,20 +1,20 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     Rock = sprites.createProjectileFromSprite(img`
         . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . b b b . . . . . . . 
-        . . . . . . b 1 b b b b b . . . 
-        . . . . . b b 1 c c b e b b b . 
-        . . . . b b 1 c e 1 b b b e b . 
-        . . . . b c 1 1 1 1 e e b b b . 
-        . . . . b b c c c 1 b b b b . . 
-        . . . . . b b b c b b e e b . . 
-        . . . . . . . b b b c b b b . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
+        . . c c b b b a c a a a c c . . 
+        . c c a b a c b a a a b a c c . 
+        . c a b c f f f b a b b b a c . 
+        . c a c f f f 5 a b b b b b a . 
+        . c a 8 f f 8 c a b b b b b a . 
+        . c c a c c c c a b c f a b c . 
+        . c a a a c c c a c f f c b b . 
+        . c a b 6 a c c a f f c c b b . 
+        . a b c 8 6 c c a a a b b c b . 
+        . a c f f a c c a f a c c c b . 
+        . a 8 f c c b a f f c b c c c . 
+        . c b c c c c b f c a b b a c . 
+        . . . b b b b b b b b b b . . . 
+        . . . c c c c b b b b b c . . . 
         . . . . . . . . . . . . . . . . 
         `, car, 200, 0)
 })
